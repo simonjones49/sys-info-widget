@@ -1,7 +1,7 @@
 # Sys-Info Widget
 ![Preview](preview.png)
 
-A streamlined Noctalia plugin that display system information.
+A streamlined Noctalia desktop plugin that display system information.
 
 ## Features
 
@@ -10,6 +10,7 @@ This plugin is part of the `noctalia-plugins` ecosystem. Clone this repo into yo
 \`~/.config/noctalia/plugins/sys-info-widget\`
 
 ## Configuration
+None
 
 ## Requirements
 - **Noctalia Shell**: 3.6.0 or later.
