@@ -1,4 +1,6 @@
 # Sys-Info Widget
+![Preview](preview.png)
+
 
 A streamlined Noctalia plugin that monitors system resources in real-time. It provides at-a-glance metrics for hardware health and utilization.
 
