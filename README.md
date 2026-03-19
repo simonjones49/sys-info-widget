@@ -1,7 +1,7 @@
 # Sys-Info Widget
 ![Preview](preview.png)
 
-A streamlined Noctalia desktop plugin that display system information.
+A theme aware Noctalia desktop plugin that display system information.
 
 ## Features
 Shows the running distribution, kernel and uptime, updated every minute.
