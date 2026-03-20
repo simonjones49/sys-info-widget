@@ -9,7 +9,6 @@
   "description": "Shows Distribution, Kernel, and Uptime.",
   "tags": ["Desktop", "System"],
   "entryPoints": {
-    "main": "Main.qml",
     "desktopWidget": "DesktopWidget.qml"
   },
   "metadata": {
