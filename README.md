@@ -5,9 +5,6 @@ A theme aware Noctalia desktop plugin that display system information.
 
 ## Features
 Shows the running distribution, kernel and uptime, updated every minute.
-## Installation
-This plugin is part of the `noctalia-plugins` ecosystem. Clone this repo into your Noctalia plugins directory:
-\`~/.config/noctalia/plugins/sys-info-widget\`
 
 ## Configuration
 None
