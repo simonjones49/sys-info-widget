@@ -20,7 +20,7 @@ DraggableDesktopWidget {
     property string distroVal: "..."
     property string kernelVal: "..."
     property string uptimeVal: "..."
-
+	// Changed font size to L
     // --- Data Fetching ---
     Process {
         id: distroProc
@@ -76,30 +76,30 @@ DraggableDesktopWidget {
 
                 // Row 1: Distribution
                 NText { 
-                    text: pluginApi?.tr("widget.distribution") ?? "Distribution"
+                    text: pluginApi?.tr("widget.distribution")
                     color: Color.mOnSurfaceVariant
-                    font.pointSize: Style.fontSizeM * widgetScale
+                    font.pointSize: Style.fontSizeL * widgetScale
                 }
                 NText { 
                     text: root.distroVal
                     color: Color.mOnSurface
                     font.bold: true
-                    font.pointSize: Style.fontSizeM * widgetScale
+                    font.pointSize: Style.fontSizeL * widgetScale
                     Layout.fillWidth: true
                     horizontalAlignment: Text.AlignRight 
                 }
 
                 // Row 2: Kernel
                 NText { 
-                    text: pluginApi?.tr("widget.kernel") ?? "Kernel"
+                    text: pluginApi?.tr("widget.kernel")
                     color: Color.mOnSurfaceVariant
-                    font.pointSize: Style.fontSizeM * widgetScale
+                    font.pointSize: Style.fontSizeL * widgetScale
                 }
                 NText { 
                     text: root.kernelVal
                     color: Color.mOnSurface
                     font.bold: true
-                    font.pointSize: Style.fontSizeM * widgetScale
+                    font.pointSize: Style.fontSizeL * widgetScale
                     Layout.fillWidth: true
                     horizontalAlignment: Text.AlignRight
                     elide: Text.ElideRight
@@ -107,15 +107,15 @@ DraggableDesktopWidget {
 
                 // Row 3: Uptime
                 NText { 
-                    text: pluginApi?.tr("widget.uptime") ?? "Uptime"
+                    text: pluginApi?.tr("widget.uptime")
                     color: Color.mOnSurfaceVariant
-                    font.pointSize: Style.fontSizeM * widgetScale
+                    font.pointSize: Style.fontSizeL * widgetScale
                 }
                 NText { 
                     text: root.uptimeVal
                     color: Color.mOnSurface
                     font.bold: true
-                    font.pointSize: Style.fontSizeM * widgetScale
+                    font.pointSize: Style.fontSizeL * widgetScale
                     Layout.fillWidth: true
                     horizontalAlignment: Text.AlignRight 
                 }
